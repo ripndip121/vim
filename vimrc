@@ -16,11 +16,12 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/airline-themes'
+"Plugin 'vim-airline/airline-themes'
 
 call vundle#end()
 syntax enable
 filetype plugin indent on
+colorscheme gruvbox
 set background=dark
 set number
 set tabstop=4
